@@ -21,7 +21,7 @@ resources:
 - name: heroku-example
   type: git
   source:
-      uri: git@github.com:Sebusk/PGR301-heroku-example.git
+      uri: git@github.com:SebuskDev/PGR301-heroku-example.git
       branch: master
       private_key: ((deploy_key))
 
@@ -29,6 +29,6 @@ resources:
 - name: heroku-example-app
   type: git
   source:
-      uri: git@github.com:Sebusk/PGR301-heroku-example-app.git
+      uri: git@github.com:SebuskDev/PGR301-heroku-example-app.git
       branch: master
       private_key: ((deploy-key-app))
